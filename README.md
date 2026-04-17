@@ -1,12 +1,12 @@
 # Dataquest Guided Projects
 
-This repository is a portfolio-style collection of guided projects completed while working through the Dataquest Data Scientist in Python path. It highlights hands-on practice in cleaning datasets, exploring questions with Python, building charts, and communicating findings clearly in notebooks.
+This repository is a portfolio-style collection of guided and coursework-style data science projects, including the Dataquest Data Scientist in Python path. It highlights hands-on practice in cleaning datasets, exploring questions with Python, building charts, working with APIs, and communicating findings clearly in notebooks.
 
 ## What This Repository Shows
 
 - End-to-end notebook workflow: inspect, clean, analyze, visualize, and summarize
-- Practice with survey data, app market data, school performance data, traffic data, and SQL analysis
-- Growing comfort with Python, Pandas, Matplotlib, Jupyter Notebook, and SQL
+- Practice with survey data, app market data, school performance data, traffic data, Stack Overflow text data, movie ratings, and SQL analysis
+- Growing comfort with Python, Pandas, Matplotlib, Jupyter Notebook, REST APIs, and SQL
 - Consistent project organization with one folder per project and a shared raw data directory
 
 ## Tech Stack
@@ -32,14 +32,24 @@ This repository is a portfolio-style collection of guided projects completed whi
 | [Employee Exit Surveys](projects/employee-exit-surveys/) | Combine exit surveys to examine dissatisfaction by years of service | Pandas, feature engineering, pivot tables |
 | [Exchange Rate Visualization](projects/exchange-rate-visualization/) | Use time-series charts to tell a story about euro-dollar exchange rates | Matplotlib, rolling averages, data storytelling |
 | [SQL Window Functions](projects/sql-window-functions/) | Practice analytical SQL queries on the Northwind database using window functions | SQL, PostgreSQL, window functions |
+| [Finding the Best Markets to Advertise](projects/finding-best-markets-to-advertise/) | Use the freeCodeCamp new coders survey to recommend the best countries to advertise in | Pandas, survey analysis, market prioritization |
+| [Investigating Fandango Ratings](projects/investigating-fandango-ratings/) | Compare Fandango scores with other rating sites across two time periods | Pandas, comparative analysis, data storytelling |
+| [Popular Data Science on Stack Overflow](projects/popular-data-science-stack-overflow/) | Explore which data science topics drive the most Stack Overflow questions | Pandas, datetime analysis, tag frequency |
+| [Mission 469: Stack Overflow Solutions](projects/mission-469-stack-overflow-solutions/) | Guided solutions notebook for Stack Overflow data science question analysis | Pandas, guided walkthrough, aggregation |
+| [Exploring Financial Data (Nasdaq)](projects/exploring-financial-data-nasdaq/) | Pull financial table data from Nasdaq Data Link and visualize trends | REST APIs, JSON, Pandas, time series plots |
 
 ## Repository Structure
 
 - `projects/`: one folder per guided project
 - `dataset/`: shared raw datasets used by the notebooks
 
+## API keys and secrets
+
+- The Nasdaq Data Link project reads `NASDAQ_API_KEY` from the environment, or optionally a local `config.py` copied from `config.example.py`.
+- `config.py` is listed in `.gitignore` so API keys are not committed to GitHub.
+
 ## Guided Project Note
 
-- These projects were completed as part of the Dataquest curriculum.
+- Many of these projects were completed as part of the Dataquest curriculum or similar guided coursework.
 - I organized them into a single repository so they are easier to review as a learning portfolio.
 - The goal of this repo is to show consistent practice, clean organization, and clear communication while I build stronger independent projects.
