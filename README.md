@@ -35,7 +35,6 @@ This repository is a portfolio-style collection of guided and coursework-style d
 | [Finding the Best Markets to Advertise](projects/finding-best-markets-to-advertise/) | Use the freeCodeCamp new coders survey to recommend the best countries to advertise in | Pandas, survey analysis, market prioritization |
 | [Investigating Fandango Ratings](projects/investigating-fandango-ratings/) | Compare Fandango scores with other rating sites across two time periods | Pandas, comparative analysis, data storytelling |
 | [Popular Data Science on Stack Overflow](projects/popular-data-science-stack-overflow/) | Explore which data science topics drive the most Stack Overflow questions | Pandas, datetime analysis, tag frequency |
-| [Mission 469: Stack Overflow Solutions](projects/mission-469-stack-overflow-solutions/) | Guided solutions notebook for Stack Overflow data science question analysis | Pandas, guided walkthrough, aggregation |
 | [Exploring Financial Data (Nasdaq)](projects/exploring-financial-data-nasdaq/) | Pull financial table data from Nasdaq Data Link and visualize trends | REST APIs, JSON, Pandas, time series plots |
 
 ## Repository Structure
