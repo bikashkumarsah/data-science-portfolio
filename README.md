@@ -5,7 +5,7 @@ This repository is a portfolio-style collection of guided and coursework-style d
 ## What This Repository Shows
 
 - End-to-end notebook workflow: inspect, clean, analyze, visualize, and summarize
-- Practice with survey data, app market data, school performance data, traffic data, Stack Overflow text data, movie ratings, and SQL analysis
+- Practice with survey data, app market data, school performance data, traffic data, Stack Overflow text data, movie ratings, NLP (SMS spam), trivia text data, and SQL analysis
 - Growing comfort with Python, Pandas, Matplotlib, Jupyter Notebook, REST APIs, and SQL
 - Consistent project organization with one folder per project and a shared raw data directory
 
@@ -35,6 +35,9 @@ This repository is a portfolio-style collection of guided and coursework-style d
 | [Finding the Best Markets to Advertise](projects/finding-best-markets-to-advertise/) | Use the freeCodeCamp new coders survey to recommend the best countries to advertise in | Pandas, survey analysis, market prioritization |
 | [Investigating Fandango Ratings](projects/investigating-fandango-ratings/) | Compare Fandango scores with other rating sites across two time periods | Pandas, comparative analysis, data storytelling |
 | [Popular Data Science on Stack Overflow](projects/popular-data-science-stack-overflow/) | Explore which data science topics drive the most Stack Overflow questions | Pandas, datetime analysis, tag frequency |
+| [Winning Jeopardy](projects/winning-jeopardy/) | Analyze Jeopardy clues to study word overlap and high-value vs. low-value questions | Text cleaning, Pandas, chi-square thinking |
+| [Spam Filter (Naive Bayes)](projects/spam-filter-naive-bayes/) | Build a multinomial Naive Bayes classifier for SMS spam | NLP basics, train/test split, probability |
+| [Lottery Addiction Mobile App](projects/lottery-addiction-mobile-app/) | Use lottery draw history to illustrate probabilities for a responsible gambling awareness angle | Probability, combinatorics, Pandas |
 | [Exploring Financial Data (Nasdaq)](projects/exploring-financial-data-nasdaq/) | Pull financial table data from Nasdaq Data Link and visualize trends | REST APIs, JSON, Pandas, time series plots |
 
 ## Repository Structure
