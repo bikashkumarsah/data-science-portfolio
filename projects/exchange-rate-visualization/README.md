@@ -1,27 +1,35 @@
 # Exchange Rate Visualization
 
-This project uses euro-to-dollar exchange rate data to build charts that explain changes over time and highlight important economic periods.
+This project uses time-series visualization to tell a story about euro to US dollar exchange rates.
 
-## Objective
+## Problem
 
-Practice storytelling with data by turning a time-series dataset into clear visual explanations of exchange rate trends.
+Create clear visualizations that show how the euro-dollar exchange rate changed over time.
+
+## Methods
+
+- Load historical exchange-rate data
+- Parse dates and inspect time coverage
+- Calculate rolling averages
+- Build time-series charts
+- Refine chart styling for communication
 
 ## Skills Demonstrated
 
-- Time-series cleaning with Pandas
-- Rolling averages for trend analysis
-- Building multi-chart visual stories with Matplotlib
-- Highlighting important periods such as the financial crisis
+- Time-series analysis
+- Rolling averages
+- Matplotlib styling
+- Data storytelling
+- Visual communication
 
 ## Dataset
 
-- `dataset/euro-daily-hist_1999_2020.csv`
+- `../../dataset/euro-daily-hist_1999_2020.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates using visualization choices to make a trend easier to understand.

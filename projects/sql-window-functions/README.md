@@ -1,27 +1,35 @@
 # SQL Window Functions
 
-This notebook practices analytical SQL using window functions against the Northwind sample database in PostgreSQL.
+This project practices analytical SQL queries using window functions on business-style relational data.
 
-## Objective
+## Problem
 
-Use window functions to answer business-style questions while becoming more comfortable with ranking, partitioning, and cumulative analysis in SQL.
+Use SQL to answer ranking, comparison, and grouped-analysis questions that go beyond basic aggregation.
+
+## Methods
+
+- Connect to a PostgreSQL database from a notebook
+- Inspect available relational tables
+- Write joins and grouped queries
+- Use window functions for ranking and comparisons
+- Present query results as tabular outputs
 
 ## Skills Demonstrated
 
-- SQL window functions
-- Analytical queries in PostgreSQL
-- Working with SQL inside Jupyter using `jupysql`
-- Exploring business data from a relational database
+- SQL joins
+- PostgreSQL
+- Window functions
+- Aggregation
+- Analytical query design
 
 ## Dataset
 
-- Local PostgreSQL `northwind` database
+- Northwind-style relational database accessed from the notebook environment
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- This notebook requires a local PostgreSQL database connection instead of a CSV file stored in this repository
+This project demonstrates SQL fluency for analysis tasks that are common in data analyst and data scientist workflows.

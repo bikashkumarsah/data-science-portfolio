@@ -1,28 +1,36 @@
 # Employee Exit Surveys
 
-This project cleans and combines employee exit survey data from two institutions to study dissatisfaction among employees who resigned.
+This project combines employee exit survey datasets to analyze dissatisfaction by years of service.
 
-## Objective
+## Problem
 
-Investigate whether employees with longer service are more likely to leave because of dissatisfaction.
+Determine whether employees who worked longer were more likely to resign because of dissatisfaction.
+
+## Methods
+
+- Load two different employee survey datasets
+- Standardize column names and response categories
+- Combine datasets into one analysis table
+- Engineer service-tenure categories
+- Compare dissatisfaction across employee groups
 
 ## Skills Demonstrated
 
-- Cleaning datasets with different schemas
-- Creating comparable columns across sources
-- Handling missing values and categorical labels
-- Summarizing results with pivot tables and charts
+- Survey data cleaning
+- Dataset combination
+- Feature engineering
+- Missing-value handling
+- Pivot tables and grouped summaries
 
 ## Dataset
 
-- `dataset/dete_survey.csv`
-- `dataset/tafe_survey.csv`
+- `../../dataset/dete_survey.csv`
+- `../../dataset/tafe_survey.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates how to reconcile related datasets with different schemas before answering a people analytics question.

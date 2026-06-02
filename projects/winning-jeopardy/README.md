@@ -1,27 +1,35 @@
 # Winning Jeopardy
 
-This project analyzes a sample of Jeopardy questions to study text patterns, word overlap, and what separates high-value clues from lower-value clues.
+This project analyzes Jeopardy questions to explore word overlap and high-value clue patterns.
 
-## Objective
+## Problem
 
-Clean and normalize questions and answers, then explore statistical relationships that could inform a trivia strategy.
+Investigate whether past clue patterns can provide useful preparation signals for future Jeopardy questions.
+
+## Methods
+
+- Clean question and answer text
+- Normalize words for comparison
+- Calculate overlap between answers and questions
+- Compare high-value and low-value clues
+- Apply probability and statistical reasoning
 
 ## Skills Demonstrated
 
-- Text normalization and string processing in Pandas
-- Datetime features from game air dates
-- Feature engineering for high vs. low value clues
-- Chi-square style thinking about observed vs. expected counts
+- Text cleaning
+- Word overlap analysis
+- Pandas transformations
+- Probability thinking
+- Chi-square style comparison
 
 ## Dataset
 
-- `dataset/jeopardy.csv`
+- `../../dataset/jeopardy.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Guided-style project completed while learning data analysis with Python.
-- Raw data lives in the shared `dataset/` folder at the repository root.
+This project demonstrates using text features and statistical thinking to evaluate a strategic question.

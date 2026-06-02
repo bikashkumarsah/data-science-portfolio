@@ -1,26 +1,35 @@
 # Finding the Best Markets to Advertise
 
-This project analyzes the freeCodeCamp New Coders Survey to identify geographic markets that are most promising for advertising an e-learning product.
+This project uses a new-coders survey to recommend promising countries for advertising coding courses.
 
-## Objective
+## Problem
 
-Use survey responses about location, learning goals, and spending to recommend where marketing spend is likely to have the highest impact.
+Identify markets with enough potential customers and enough willingness to pay for programming education.
+
+## Methods
+
+- Load and inspect survey data
+- Filter for relevant coding-course audiences
+- Analyze respondent location and spending
+- Compare market size and spending behavior by country
+- Recommend target markets with caveats
 
 ## Skills Demonstrated
 
-- Survey data cleaning with Pandas
-- Frequency distributions and grouped summaries
-- Turning exploratory findings into a market recommendation
+- Survey analysis
+- Market prioritization
+- Pandas filtering and aggregation
+- Outlier review
+- Recommendation framing
 
 ## Dataset
 
-- `dataset/2017-fCC-New-Coders-Survey-Data.csv`
+- `../../dataset/2017-fCC-New-Coders-Survey-Data.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Guided-style project completed while learning data analysis with Python.
-- Raw data lives in the shared `dataset/` folder at the repository root.
+This project demonstrates turning survey data into a practical market recommendation.

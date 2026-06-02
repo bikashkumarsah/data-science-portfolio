@@ -1,27 +1,34 @@
 # Star Wars Survey
 
-This project analyzes survey responses about the Star Wars films to compare movie rankings, viewing behavior, and fan preferences.
+This project analyzes survey responses about Star Wars movie rankings, viewership, and audience groups.
 
-## Objective
+## Problem
 
-Clean the survey data and identify which films are the most watched and best ranked, including differences across audience groups.
+Clean survey data and compare movie preferences across respondents and demographic groups.
+
+## Methods
+
+- Clean checkbox and ranking survey columns
+- Convert text responses into numeric and boolean fields
+- Compare movie rankings and view counts
+- Visualize differences between respondent groups
 
 ## Skills Demonstrated
 
-- Cleaning survey-style columns
-- Converting categorical responses into usable values
-- Aggregating ratings and view counts
-- Visualizing preference patterns with bar charts
+- Survey data cleaning
+- Boolean conversion
+- Ranking analysis
+- Pandas transformations
+- Bar chart visualization
 
 ## Dataset
 
-- `dataset/star_wars.csv`
+- `../../dataset/star_wars.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates cleaning messy survey responses and communicating findings with simple visual comparisons.

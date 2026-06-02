@@ -1,27 +1,35 @@
 # Traffic Volume Analysis
 
-This project explores highway traffic data to understand when daytime traffic is heaviest and which factors appear to influence it.
+This project analyzes highway traffic volume patterns using time, weather, and calendar features.
 
-## Objective
+## Problem
 
-Analyze traffic patterns by time of day, day of week, month, and weather conditions to explain changes in traffic volume.
+Understand when traffic is heaviest and which conditions appear most related to traffic volume.
+
+## Methods
+
+- Parse datetime features from traffic records
+- Compare day and night traffic patterns
+- Analyze traffic by month, weekday, and hour
+- Explore weather-related traffic indicators
+- Visualize trends and distributions
 
 ## Skills Demonstrated
 
-- Pandas data loading and filtering
-- Datetime conversion and feature extraction
-- Histograms, line charts, and bar charts
-- Comparing patterns across multiple time-based segments
+- Pandas time-series analysis
+- Feature extraction from dates
+- Matplotlib visualization
+- Grouped summaries
+- Exploratory analysis
 
 ## Dataset
 
-- `dataset/Metro_Interstate_Traffic_Volume.csv`
+- `../../dataset/Metro_Interstate_Traffic_Volume.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates how to turn timestamped records into useful operational insights.

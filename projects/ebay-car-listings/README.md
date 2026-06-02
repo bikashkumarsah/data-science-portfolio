@@ -1,27 +1,34 @@
 # eBay Car Listings
 
-This project cleans and analyzes used-car listing data from eBay to uncover pricing patterns and improve dataset quality.
+This project cleans used-car listing data and explores pricing patterns across brands and vehicle attributes.
 
-## Objective
+## Problem
 
-Standardize messy listing fields and explore how price varies across brands, mileage, and other listing attributes.
+Prepare messy marketplace listing data for analysis and identify meaningful patterns in car prices.
+
+## Methods
+
+- Inspect column names, data types, and missing values
+- Convert price and odometer fields from text to numeric values
+- Remove unrealistic values and noisy records
+- Compare average prices and mileage across brands
 
 ## Skills Demonstrated
 
-- Pandas-based data cleaning
-- Converting text columns into numeric features
-- Inspecting invalid values and outliers
-- Grouped analysis for comparing categories
+- Pandas data cleaning
+- Type conversion
+- Missing-value inspection
+- Outlier review
+- Grouped analysis
 
 ## Dataset
 
-- `dataset/autos.csv`
+- `../../dataset/autos.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates the data preparation work needed before drawing conclusions from real-world marketplace data.

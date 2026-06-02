@@ -1,27 +1,34 @@
 # Hacker News Posts
 
-This project analyzes Hacker News post data to compare discussion trends across different post types and posting times.
+This project compares Ask HN and Show HN posts to understand which post types and posting times receive more comments.
 
-## Objective
+## Problem
 
-Determine whether `Ask HN` or `Show HN` posts receive more comments and identify the best times to post for engagement.
+Identify whether question-style or showcase-style posts perform better, and when posts are more likely to receive comments.
+
+## Methods
+
+- Load and inspect Hacker News post data
+- Separate Ask HN and Show HN posts
+- Calculate average comments by post type
+- Analyze posting hour patterns with datetime parsing
 
 ## Skills Demonstrated
 
-- CSV parsing with Python
-- Datetime parsing and hourly grouping
-- Average comment analysis
-- Turning simple calculations into a practical recommendation
+- Python lists and dictionaries
+- CSV handling
+- Datetime analysis
+- Aggregation
+- Comparative analysis
 
 ## Dataset
 
-- `dataset/hacker_news.csv`
+- `../../dataset/hacker_news.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates practical Python analysis for extracting recommendations from behavioral data.

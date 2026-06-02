@@ -1,28 +1,35 @@
 # App Analysis
 
-This project compares App Store and Google Play datasets to explore which types of free mobile apps are most likely to attract users.
+This project analyzes mobile app datasets to identify free app profiles that are likely to attract users.
 
-## Objective
+## Problem
 
-Identify app profiles that look promising for a business model built around user engagement and ad revenue.
+Find app categories and user patterns that could guide which type of free app to build for strong user engagement.
+
+## Methods
+
+- Load and inspect Apple App Store and Google Play datasets
+- Clean duplicate and non-English app records
+- Build frequency tables for app genres and categories
+- Compare popularity patterns across app markets
 
 ## Skills Demonstrated
 
-- Python lists, loops, and functions
-- CSV loading and basic data cleaning
-- Frequency tables and category comparison
-- Translating exploratory results into a product recommendation
+- Python fundamentals
+- CSV handling
+- Data cleaning
+- Frequency tables
+- Exploratory analysis
 
 ## Dataset
 
-- `dataset/AppleStore.csv`
-- `dataset/googleplaystore.csv`
+- `../../dataset/AppleStore.csv`
+- `../../dataset/googleplaystore.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates early end-to-end analysis skills using plain Python data structures and clear business reasoning.

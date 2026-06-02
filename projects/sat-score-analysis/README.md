@@ -1,34 +1,35 @@
 # SAT Score Analysis
 
-This project combines several New York City school datasets to explore how school characteristics relate to SAT performance.
+This project combines multiple New York City school datasets to explore relationships with SAT performance.
 
-## Objective
+## Problem
 
-Merge multiple sources into one analysis dataset and investigate how safety, demographics, and academic indicators connect with SAT scores.
+Merge school-level datasets and identify factors that may be associated with SAT scores.
+
+## Methods
+
+- Load multiple school and survey datasets
+- Standardize school identifiers for joins
+- Combine demographic, survey, graduation, class-size, and SAT data
+- Calculate correlations with SAT scores
+- Visualize relationships across school characteristics
 
 ## Skills Demonstrated
 
-- Joining multiple datasets with Pandas
-- Cleaning and standardizing columns
-- Correlation analysis and scatter plots
-- Interpreting relationships in education data
+- Multi-file data cleaning
+- Joins and merges
+- Correlation analysis
+- Survey data preparation
+- Pandas and Matplotlib
 
 ## Dataset
 
-- `dataset/schools/ap_2010.csv`
-- `dataset/schools/class_size.csv`
-- `dataset/schools/demographics.csv`
-- `dataset/schools/graduation.csv`
-- `dataset/schools/hs_directory.csv`
-- `dataset/schools/sat_results.csv`
-- `dataset/schools/survey_all.txt`
-- `dataset/schools/survey_d75.txt`
+- `../../dataset/schools/`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Completed as part of the Dataquest Data Scientist in Python path
-- The raw data for this notebook is stored in the shared `dataset/` folder at the repository root
+This project demonstrates a larger data-cleaning workflow where the main challenge is combining many sources into one usable dataset.

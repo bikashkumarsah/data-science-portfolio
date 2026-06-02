@@ -1,27 +1,36 @@
 # Popular Data Science Questions on Stack Overflow
 
-This project explores Stack Overflow question data to understand which data science topics attract the most interest over time.
+This project analyzes Stack Overflow question tags to identify popular data science topics.
 
-## Objective
+## Problem
 
-Identify popular tags and question patterns using a sample of questions from 2019 and a broader historical extract.
+Determine which data science topics attract the most Stack Overflow questions and how topic interest changes over time.
+
+## Methods
+
+- Load question datasets with creation dates and tags
+- Clean and parse multi-tag fields
+- Count tag frequency
+- Compare topic popularity across time
+- Visualize high-interest tags
 
 ## Skills Demonstrated
 
-- Working with large text datasets in Pandas
-- Datetime parsing and time-based aggregation
-- Tag frequency analysis and visualization
+- Text parsing
+- Tag frequency analysis
+- Datetime analysis
+- Pandas transformations
+- Topic trend analysis
 
 ## Dataset
 
-- `dataset/2019_questions.csv`
-- `dataset/all_questions.csv`
+- `../../dataset/2019_questions.csv`
+- `../../dataset/all_questions.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Guided-style project completed while learning data analysis with Python.
-- Raw data lives in the shared `dataset/` folder at the repository root.
+This project demonstrates using public Q&A data to reason about technical topic demand.

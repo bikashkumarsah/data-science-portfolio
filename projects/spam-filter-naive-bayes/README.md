@@ -1,27 +1,35 @@
 # Spam Filter with Naive Bayes
 
-This project builds a simple SMS spam classifier using a multinomial Naive Bayes approach on labeled ham and spam messages.
+This project builds a simple SMS spam classifier using a multinomial Naive Bayes approach.
 
-## Objective
+## Problem
 
-From raw SMS labels and text, train and evaluate a probabilistic classifier and interpret how well it separates spam from legitimate messages.
+Classify SMS messages as spam or ham using the words that appear in each message.
+
+## Methods
+
+- Load labeled SMS text data
+- Split messages into training and test sets
+- Build a vocabulary from the training data
+- Estimate word probabilities for spam and ham
+- Evaluate classifier accuracy on held-out messages
 
 ## Skills Demonstrated
 
-- Text data loading (tab-separated SMS corpus)
-- Train and test splits, random sampling
-- Vocabulary and probability estimates for Naive Bayes
-- Classification accuracy on held-out data
+- Natural language processing basics
+- Naive Bayes classification
+- Train/test split
+- Probability estimates
+- Model evaluation
 
 ## Dataset
 
-- `dataset/SMSSpamCollection`
+- `../../dataset/SMSSpamCollection`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Guided-style project completed while learning data analysis with Python.
-- Raw data lives in the shared `dataset/` folder at the repository root.
+This project demonstrates the statistical foundation behind a common text classification task.

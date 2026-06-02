@@ -1,27 +1,36 @@
 # Investigating Fandango Movie Ratings
 
-This project compares Fandango movie ratings with other sources to assess whether Fandango scores appear inflated relative to Metacritic, IMDB, and similar services.
+This project compares Fandango movie ratings across two time periods and against other rating sources.
 
-## Objective
+## Problem
 
-Clean and join two time periods of movie rating data to evaluate consistency and changes in how ratings are presented.
+Investigate whether Fandango rating behavior changed after earlier criticism of inflated ratings.
+
+## Methods
+
+- Load movie rating datasets from two time periods
+- Compare rating distributions
+- Calculate summary statistics
+- Visualize rating differences
+- Discuss limitations in sampling and comparability
 
 ## Skills Demonstrated
 
-- Comparative analysis across rating platforms
-- Pandas joins and filtering
-- Communicating statistical concerns clearly in a notebook
+- Comparative analysis
+- Distribution visualization
+- Pandas transformations
+- Summary statistics
+- Data storytelling
 
 ## Dataset
 
-- `dataset/fandango_score_comparison.csv`
-- `dataset/movie_ratings_16_17.csv`
+- `../../dataset/fandango_score_comparison.csv`
+- `../../dataset/movie_ratings_16_17.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Guided-style investigative project completed while learning data analysis with Python.
-- Raw data lives in the shared `dataset/` folder at the repository root.
+This project demonstrates how to compare distributions across datasets while being careful about interpretation.

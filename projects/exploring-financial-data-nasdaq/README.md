@@ -1,30 +1,40 @@
 # Exploring Financial Data with Nasdaq Data Link
 
-This project pulls financial table data from the Nasdaq Data Link API and explores company reporting trends over time.
+This project pulls financial table data from the Nasdaq Data Link API and analyzes company reporting trends.
 
-## Objective
+## Problem
 
-Practice authenticated API access, JSON parsing, and time-series visualization for financial metrics.
+Practice authenticated API access and use retrieved financial data for exploratory analysis.
+
+## Methods
+
+- Send API requests with query parameters
+- Parse JSON responses into tabular data
+- Clean and inspect returned financial records
+- Build time-series views of financial metrics
+- Handle credentials without committing secrets
 
 ## Skills Demonstrated
 
-- REST API requests with parameters
-- JSON to tabular data with Pandas
-- Time-series plotting with Matplotlib
-- Safe handling of API credentials
+- REST API requests
+- JSON parsing
+- Pandas dataframes
+- Time-series visualization
+- Safe API credential handling
 
 ## Dataset
 
-- Data is retrieved live from Nasdaq Data Link (no CSV checked into this project for that source).
+- Data is retrieved live from Nasdaq Data Link.
 
-## API credentials
+## API Credentials
 
-- Set the environment variable `NASDAQ_API_KEY`, or copy `config.example.py` to `config.py` locally (`config.py` is gitignored).
+- Set `NASDAQ_API_KEY` in the environment, or copy `config.example.py` to `config.py` locally.
+- `config.py` is ignored by Git so API keys are not committed.
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Project completed while learning to work with external financial APIs in Python.
+This project demonstrates working with an external data source and keeping credential handling separate from portfolio code.

@@ -1,27 +1,35 @@
 # Mobile App for Lottery Addiction
 
-This project uses historical lottery draw data to illustrate probabilities and support a hypothetical app that helps users understand gambling risk responsibly.
+This project calculates lottery probabilities for a responsible gambling education use case.
 
-## Objective
+## Problem
 
-Compute combinations, probabilities, and frequency patterns from past draws to communicate realistic odds.
+Explain lottery odds clearly enough to help users understand the low probability of winning.
+
+## Methods
+
+- Build probability functions for lottery combinations
+- Calculate odds for single tickets and multiple tickets
+- Compare user numbers with historical winning draws
+- Use historical draw data for examples
+- Communicate probability results in plain language
 
 ## Skills Demonstrated
 
-- Probability and combinatorics with Python
-- Pandas for historical draw data
-- Functions encapsulating repeated logic
-- Framing analysis for a simple product use case
+- Probability
+- Combinatorics
+- Python functions
+- Pandas data loading
+- Clear numerical communication
 
 ## Dataset
 
-- `dataset/649.csv`
+- `../../dataset/649.csv`
 
-## Project Files
+## Files
 
-- `analysis.ipynb`: full notebook analysis
+- [analysis.ipynb](analysis.ipynb): full notebook analysis
 
-## Portfolio Note
+## What This Shows
 
-- Guided-style project completed while learning data analysis with Python.
-- Raw data lives in the shared `dataset/` folder at the repository root.
+This project demonstrates applying probability concepts to a practical communication problem.
